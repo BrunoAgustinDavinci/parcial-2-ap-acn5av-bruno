@@ -1,1 +1,5 @@
-# parcial-2-ap-acn5av-bruno
+# ERPico
+
+Sistema ERP básico y modular para pequeñas empresas.
+
+Este proyecto es parte de un parcial universitario.
