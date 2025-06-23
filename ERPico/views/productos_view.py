@@ -16,3 +16,4 @@ class Ventana:
         self.boton_baja = Button(main, text="Baja producto", command=self.controlador.baja)
         self.boton_modificacion = Button(main, text="Modificar producto", command=self.controlador.modificar)
         self.boton_consulta = Button(main, text="Consultar", command=self.controlador.consulta)
+        #Agregado de decimales
