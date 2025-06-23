@@ -13,3 +13,4 @@ class Controlador:
         categoria = self.vista.categoria.get().strip()
         precio = self.vista.precio.get()
         stock = self.vista.stock.get()
+        descuento = self.vista.descuento.get()
