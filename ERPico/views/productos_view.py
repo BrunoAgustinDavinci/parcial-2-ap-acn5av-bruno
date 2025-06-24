@@ -18,3 +18,11 @@ class Ventana:
         self.boton_consulta = Button(main, text="Consultar", command=self.controlador.consulta)
         #Agregado de decimales
         self.label_stock = Label(main,text="Stock", command=self.controlador.stock)
+        
+    def producto_modificado(self, main):
+        self.main = main
+        self.var_id = StringVar()
+        self.nombre = StringVar()
+        self.categoria = StringVar()
+        self.precio = StringVar()
+        
