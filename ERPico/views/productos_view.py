@@ -45,10 +45,3 @@ class Ventana:
         self.nombre.set("")
         self.categoria.set("")
         self.precio.set("")
-
-        #abmc = Abmc()
-        #resultado = datos if datos is not None else abmc.modelo_treeview()
-
-        #for fila in resultado:
-           # self.tree.insert("", 0, text=fila.id,
-                             #values=(fila.nombre, fila.categoria, fila.precio, fila.stock))
