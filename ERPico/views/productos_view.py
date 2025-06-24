@@ -35,3 +35,13 @@ class Ventana:
         self.boton_consulta = Button(main, text="Consultar", command=self.controlador.consulta)
         #Agregado de decimales
         self.label_stock = Label(main,text="Stock", command=self.controlador.stock)
+
+    #Agregado de cartel eliminacion
+    def actualizar_treeview(self, datos=None):
+        for element in self.tree.get_children():
+            self.tree.delete(element)
+
+        self.stock.set("")
+        self.nombre.set("")
+        self.categoria.set("")
+        self.precio.set("")
