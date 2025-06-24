@@ -25,6 +25,7 @@ class Ventana:
         self.nombre = StringVar()
         self.categoria = StringVar()
         self.precio = StringVar()
+        #Cambio de formato
         self.stock = StringVar()
         self.var_consulta = StringVar()
         self.boton_guardar = Button(main, text="Guardar", command=self.controlador.guardar_modificacion)
